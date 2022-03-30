@@ -4,6 +4,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 import ProTip from './ProTip';
+import Button from '@mui/material/Button';
 
 function Copyright() {
   return (
@@ -26,6 +27,9 @@ export default function App() {
         </Typography>
         <ProTip />
         <Copyright />
+        <Button variant="text">Text</Button>
+        <Button variant="contained">Contained</Button>
+        <Button variant="outlined">Outlined</Button>     
       </Box>
     </Container>
   );
